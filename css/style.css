@@ -182,26 +182,55 @@ body
     border-radius: 5px;
     height: 300px;
 }
+.card p
+{
+    color: black;
+    font-size: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* contact section */
 
 
 #Contact
 {
     display: flex;
+    flex-direction: column;
     background-color: lightblue;
     border: 1px solid blue;
-    height: 525px;
+    height: 425px;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
 }
+
+#Contact h1{
+    font-size: 40px;
+    color: black;
+}
+
+.social-links
+{
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    gap: 30px;
+    /* background-color: yellow; */
+}
+.social-links div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+} 
+/* 
+#footer
+{
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
