@@ -18,7 +18,7 @@ body
     display: flex;
     padding: 20px;
     align-items: center;
-    gap: 50%;
+    gap: 47%;
     
 }
 .logo
@@ -142,7 +142,7 @@ body
 {
     display: flex;
     background-color: white;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 525px;
     align-items: center;
     flex-direction: column;
@@ -195,8 +195,8 @@ body
 {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
-    border: 1px solid blue;
+    background-color: #E5E7Eb;
+    /* border: 1px solid blue; */
     height: 425px;
     padding: 50px;
     align-items: center;
@@ -225,12 +225,15 @@ body
     gap: 15px;
     align-items: center;
 } 
-/* 
-#footer
+
+.footer
 {
-    height: 300px;
+    height: 80px;
     padding: 50px;
+    color: white;
+    font-size: 16px;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
